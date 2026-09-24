@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "backup-planner"
+version = "1.0.0"
+description = "Preview and apply safe incremental file backups with manifests and optional SHA-256 verification."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "jellywong343-sys" }]
+dependencies = []
+keywords = ["python","backup","cli","file-management","sha256"]
+
+[project.scripts]
+backup-plan = "backup_planner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

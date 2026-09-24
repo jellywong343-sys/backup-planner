@@ -1,0 +1,11 @@
+{
+  "name": "backup-planner",
+  "description": "Preview and apply safe incremental file backups with manifests and optional SHA-256 verification.",
+  "topics": [
+    "python",
+    "backup",
+    "cli",
+    "file-management",
+    "sha256"
+  ]
+}
